@@ -2,4 +2,4 @@
 
 `kubectl get pods -n testns`{{execute}}
 
-Set Context??!
+Pro tip: `kubectl config set-context $(kubectl config current-context) --namespace=testns; kubectl config get-contexts`{{execute}}

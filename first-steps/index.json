@@ -6,10 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Running Cluster",
         "text": "step1.md",
         "code": "foreground-init.sh",
         "answer": "step1-answer.md"
+      },
+      {
+        "title": "Step 1 - Shortcuts",
+        "code": "clear.sh",
+        "text": "step1-shortcuts.md"
       },
       {
         "title": "Step 2",
@@ -37,7 +42,7 @@
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Step 7 - YAML",
         "code": "clear.sh",
         "text": "step7.md"
       },
