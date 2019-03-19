@@ -40,7 +40,7 @@
       },
       {
         "title": "Step 6",
-        "code": "clear.sh",
+        "code": "reset.sh",
         "text": "step6.md"
       },
       {
