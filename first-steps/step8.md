@@ -4,6 +4,7 @@
 
 `kubectl get deployment examplehttpapp -o yaml --export > examplehttpapp.yaml`{{execute}}
 
-`kubectl create deployment my-cool-app --image=me/my-cool-app:v1 -o yaml --dry-run`{{execute}}
-
 `vim examplehttpapp.yaml`{{execute}}
+
+Pro Tip: `kubectl create deployment my-cool-app --image=me/my-cool-app:v1 -o yaml --dry-run`{{execute}}
+

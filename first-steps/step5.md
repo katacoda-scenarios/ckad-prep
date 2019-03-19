@@ -1,4 +1,4 @@
-`kubectl create ns testns`{{execute}} `kubectl run examplehttpapp -n testns --image=katacoda/docker-http-server`{{execute}} 
+`kubectl create ns testns`{{execute}} `kubectl create deployment examplehttpapp -n testns --image=katacoda/docker-http-server`{{execute}} 
 
 `kubectl get pods -n testns`{{execute}}
 

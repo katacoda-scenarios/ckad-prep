@@ -1,3 +1,3 @@
-`kubectl apply -f examplehttpserver.yaml`{{execute}}
+`kubectl apply -f examplehttpapp.yaml`{{execute}}
 
 `kubectl get pods`{{execute}}
