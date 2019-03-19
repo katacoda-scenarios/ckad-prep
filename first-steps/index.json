@@ -61,7 +61,7 @@
       {
         "title": "Step 10 - Update Deployment",
         "code": "clear.sh",
-        "text": "step9-update.md"
+        "text": "step9-rollout.md"
       },
       {
         "title": "Step 11 - Rollback Deployment",
