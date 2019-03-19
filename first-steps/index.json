@@ -2,6 +2,7 @@
   "title": "First Steps To Becoming Certified Kubernetes Application Developer",
   "description": "Learn the foundations of Kubernetes in one short scenario",
   "difficulty": "Beginner",
+  "icon": "fa-kubernetes",
   "time": "60 minutes",
   "details": {
     "steps": [
