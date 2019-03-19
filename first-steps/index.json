@@ -8,6 +8,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
+        "code": "foreground-init.sh",
 	"answer": "step1-answer.md"
       },
       {
@@ -58,6 +59,6 @@
     "uilayout": "tips-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes-cluster-running"
   }
 }
