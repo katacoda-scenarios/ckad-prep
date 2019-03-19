@@ -8,6 +8,7 @@
       {
         "title": "Step 1 - Running Cluster",
         "text": "step1.md",
+        "courseData": "background-init.sh",
         "code": "foreground-init.sh",
         "answer": "step1-answer.md"
       },
@@ -67,6 +68,11 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+        "host01": [
+            {"file": "deploy-metricsserver.yaml", "target": "/opt/deploy-metricsserver.yaml"}
+        ]
     }
   },
   "environment": {
