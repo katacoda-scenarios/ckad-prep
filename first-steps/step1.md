@@ -1,3 +1,3 @@
-When using the command line to manage Kubernetes, `kubectl` is the key tool you will be interacting with.
+`kubectl` is the key tool you will be using to interact and manage a Kubernetes cluster from the command line. You can find the current state, deploy changes and identify issues.
 
-Use the command to view the current cluster running `kubectl get nodes`{{execute}}
+The command `kubectl get nodes`{{execute}} lists the nodes within the cluster where workloads run.

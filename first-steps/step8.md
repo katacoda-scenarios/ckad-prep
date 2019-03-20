@@ -1,10 +1,6 @@
-`kubectl get deployment examplehttpapp -o yaml`{{execute}}
+Existing Resource definitions can be outputted as YAML or JSON, such as `kubectl get deployment examplehttpapp -o yaml`{{execute}}
 
-`kubectl get deployment examplehttpapp -o yaml --export`{{execute}} (Thanks [Heptio](https://blog.heptio.com/using-kubectl-to-jumpstart-a-yaml-file-heptioprotip-6f5b8a63a3ea))
+This includes a number of additional properties that can make it difficult to edit. The `--export` flag  will remove these properties. `kubectl get deployment examplehttpapp -o yaml --export`{{execute}}
 
-`kubectl get deployment examplehttpapp -o yaml --export > examplehttpapp.yaml`{{execute}}
-
-`vim examplehttpapp.yaml`{{execute}}
-
-Pro Tip: `kubectl create deployment my-cool-app --image=me/my-cool-app:v1 -o yaml --dry-run`{{execute}}
+This can be saved to a file `kubectl get deployment examplehttpapp -o yaml --export > examplehttpapp.yaml`{{execute}} and edited using Vim with`vim examplehttpapp.yaml`{{execute}}
 

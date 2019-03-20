@@ -1,5 +1,5 @@
-`kubectl create ns testns`{{execute}} `kubectl create deployment namespacedexamplehttpapp -n testns --image=katacoda/docker-http-server`{{execute}} 
+As with Deployments, namespaces can be created with`kubectl create ns testns`{{execute}} 
+
+Namespaces can be specified with `-n <namespace>` such as``kubectl create deployment namespacedeg -n testns --image=katacoda/docker-http-server`{{execute}} 
 
 `kubectl get pods -n testns`{{execute}}
-
-Pro tip: `kubectl config set-context $(kubectl config current-context) --namespace=testns; kubectl config get-contexts`{{execute}}

@@ -1,3 +1,3 @@
-`kubectl apply -f examplehttpapp.yaml`{{execute}}
+After applying changes, the Object Definition can be updated with`kubectl apply -f examplehttpapp.yaml`{{execute}}
 
-`kubectl get pods`{{execute}}
+Depending on the change you should see the results by listing the pods with `kubectl get pods`{{execute}}
