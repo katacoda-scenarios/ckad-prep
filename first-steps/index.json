@@ -26,7 +26,8 @@
       {
         "title": "Step 3",
         "code": "clear.sh",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       },
       {
         "title": "Step 4",
@@ -46,7 +47,8 @@
       {
         "title": "Step 7 - YAML",
         "code": "clear.sh",
-        "text": "step7.md"
+        "text": "step7.md",
+        "answer": "step7-vimtips.md"
       },
       {
         "title": "Step 8",
@@ -75,7 +77,8 @@
       {
         "title": "Step 11",
         "code": "clear.sh",
-        "text": "step11.md"
+        "text": "step11.md",
+        "answer": "step11-answer.md"
       },
       {
         "title": "Step 12",
