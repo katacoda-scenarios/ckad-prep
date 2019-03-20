@@ -43,59 +43,59 @@
 	"answer": "step5-answer.md"
       },
       {
-        "title": "Step 6 - Scaling",
+        "title": "Step 7 - Scaling",
         "code": "reset.sh",
         "text": "step6.md"
       },
       {
-        "title": "Step 7 - YAML",
+        "title": "Step 8 - YAML",
         "code": "clear.sh",
         "text": "step7.md",
         "answer": "step7-vimtips.md"
       },
       {
-        "title": "Step 8 - Create YAML",
+        "title": "Step 9 - Create YAML",
         "code": "clear.sh",
         "text": "step8.md",
         "answer": "step8-answer.md"
       },
       {
-        "title": "Step 9 - Apply Changes",
+        "title": "Step 10 - Apply Changes",
         "code": "clear.sh",
         "text": "step9.md"
       },
       {
-        "title": "Step 10 - Rollout Deployment",
+        "title": "Step 11 - Rollout Deployment",
         "code": "clear.sh",
         "text": "step9-rollout.md"
       },
       {
-        "title": "Step 11 - Rollback Deployment",
+        "title": "Step 12 - Rollback Deployment",
         "text": "step9-rollback.md"
       },
       {
-        "title": "Step 10 - Create Service",
+        "title": "Step 13 - Create Service",
         "code": "clear.sh",
         "text": "step10.md"
       },
       {
-        "title": "Step 11 - Labels",
+        "title": "Step 14 - Labels",
         "code": "clear.sh",
         "text": "step11.md",
         "answer": "step11-answer.md"
       },
       {
-        "title": "Step 12 - Logs",
+        "title": "Step 15 - Logs",
         "code": "clear.sh",
         "text": "step13.md"
       },
       {
-        "title": "Step 12 - Events",
+        "title": "Step 16 - Events",
         "code": "clear.sh",
         "text": "step12.md"
       },
       {
-        "title": "Step 14 - Metrics",
+        "title": "Step 17 - Metrics",
         "code": "clear.sh",
         "text": "step14.md"
       }
