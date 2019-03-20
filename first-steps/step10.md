@@ -1,3 +1,5 @@
-`kubectl apply -f examplehttpserver.yaml`{{execute}}
+`kubectl expose deployment examplehttpapp --port 80`{{execute}}
 
-`kubectl get pods`{{execute}}
+`kubectl get svc`{{execute}}
+
+`kubectl describe svc examplehttpapp`{{execute}}

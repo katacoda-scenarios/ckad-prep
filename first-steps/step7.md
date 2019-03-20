@@ -1,2 +1,3 @@
-`kubectl edit deployment examplehttpserver`{{execute}}
+`kubectl edit deployment examplehttpapp`{{execute}}
 
+Click _Show Solution_ for Vim tips!
