@@ -70,6 +70,11 @@
         "text": "step9-rollout.md"
       },
       {
+        "title": "Step 11 - Rollout Deployment",
+        "code": "clear.sh",
+        "text": "step9-rollout-updateimage.md"
+      },
+      {
         "title": "Step 12 - Rollback Deployment",
         "text": "step9-rollback.md"
       },
