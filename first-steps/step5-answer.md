@@ -2,4 +2,4 @@ _Pro tip:_Working with a namespace for a period of time? Change the context to m
 
 `kubectl config set-context $(kubectl config current-context) --namespace=testns; kubectl config get-contexts`{{execute}}
 
-`kubectl get pods -o wide`{{execute}}
+`kubectl get pods`{{execute}}
